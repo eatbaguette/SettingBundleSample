@@ -9,10 +9,18 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    var settingValue: String = ""
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        // Do any additional setup after loading the view, typically from a nib. 
+        let defaults = NSUserDefaults()
+        if (defaults.objectForKey("test") != nil) {
+            settingValue = defaults.objectForKey("test") as! String
+        }
+        
+        print(settingValue)
+        print("hoge")
     }
 
     override func didReceiveMemoryWarning() {

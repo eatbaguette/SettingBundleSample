@@ -14,6 +14,8 @@
 		8C59F25F1F907D7000BE37BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C59F25D1F907D7000BE37BB /* LaunchScreen.storyboard */; };
 		8C59F26A1F907D7000BE37BB /* SettingsBundleSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C59F2691F907D7000BE37BB /* SettingsBundleSampleTests.swift */; };
 		8C59F2751F907D7000BE37BB /* SettingsBundleSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C59F2741F907D7000BE37BB /* SettingsBundleSampleUITests.swift */; };
+		8C59F2831F907DB900BE37BB /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8C59F2821F907DB900BE37BB /* Settings.bundle */; };
+		8C59F2871F909BFA00BE37BB /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C59F2861F909BFA00BE37BB /* ViewController2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		8C59F2701F907D7000BE37BB /* SettingsBundleSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SettingsBundleSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C59F2741F907D7000BE37BB /* SettingsBundleSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsBundleSampleUITests.swift; sourceTree = "<group>"; };
 		8C59F2761F907D7000BE37BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C59F2821F907DB900BE37BB /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		8C59F2861F909BFA00BE37BB /* ViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				8C59F25B1F907D7000BE37BB /* Assets.xcassets */,
 				8C59F25D1F907D7000BE37BB /* LaunchScreen.storyboard */,
 				8C59F2601F907D7000BE37BB /* Info.plist */,
+				8C59F2821F907DB900BE37BB /* Settings.bundle */,
+				8C59F2861F909BFA00BE37BB /* ViewController2.swift */,
 			);
 			path = SettingsBundleSample;
 			sourceTree = "<group>";
@@ -229,6 +235,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C59F2831F907DB900BE37BB /* Settings.bundle in Resources */,
 				8C59F25F1F907D7000BE37BB /* LaunchScreen.storyboard in Resources */,
 				8C59F25C1F907D7000BE37BB /* Assets.xcassets in Resources */,
 				8C59F25A1F907D7000BE37BB /* Main.storyboard in Resources */,
@@ -258,6 +265,7 @@
 			files = (
 				8C59F2571F907D7000BE37BB /* ViewController.swift in Sources */,
 				8C59F2551F907D7000BE37BB /* AppDelegate.swift in Sources */,
+				8C59F2871F909BFA00BE37BB /* ViewController2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -349,7 +357,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -388,7 +396,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
